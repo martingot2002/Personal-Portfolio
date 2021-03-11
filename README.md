@@ -7,4 +7,6 @@ It makes up the fifth project of my coding portfolio.
 You can see this project live at the following URL:
 
  https://martingot2002.github.io/Personal-Portfolio/.
+ 
+ Enjoy!
 
