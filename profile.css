@@ -17,6 +17,10 @@ body{
     
 }
 
+h2{
+
+    font-weight: 800;
+}
 header{
     position: relative;
     z-index: 1;
@@ -219,44 +223,57 @@ footer{
 
         
     }
-     .profile-details{
+    .profile-details{
         max-width: 300px;
         max-height: 300px;
 
      }
 
-     .profile-details p{
+    .profile-details p{
         font-size: 1.5rem;
         padding: 0.5rem;
        
      }
 
 }
+@media screen and (max-width: 400px){
 
-@media screen and (max-width: 350px) {
+    .profile-pic img{
 
-    header{
-        position: absolute;
+        width: 300px;
+        height: 300px;
+
         
     }
+     .profile-details{
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-details p{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+       
+     }
+
+
+    
+}
+@media screen and (max-width: 350px) {
 
     .nav{
         position: fixed;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 10px;
         width: 100%;
-    
+
     }
 
     nav li{
         display: inline-block;
         padding: 0 10px;
-        
     
-
-
     }
 
     .welcome-section{
@@ -268,7 +285,7 @@ footer{
     }
     .welcome-section h1{
         font-size: 3em;
-        padding-top: 5px;
+        
     }
 
     .container{
@@ -278,14 +295,14 @@ footer{
 
     .profile-pic img{
 
-        max-width: 250px;
-        max-height: 250px;
+        width: 250px;
+        height: 250px;
 
         
     }
      .profile-details{
-        max-width: 250px;
-        max-height: 250px;
+        width: 250px;
+        height: 250px;
     }
 
     .profile-details p{
@@ -293,5 +310,7 @@ footer{
         padding: 0.2rem;
        
      }
+
+
 }
 
