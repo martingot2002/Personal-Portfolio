@@ -36,14 +36,18 @@ nav{
 }
 
 
+
 nav li{
     display: inline-block;
     padding: 0 20px;
+    
+    
 }
 
 nav li a{
     text-decoration: none;
     color: white;
+    
 }
 
 nav a:hover{
@@ -223,27 +227,37 @@ footer{
 
      .profile-details p{
         font-size: 1.5rem;
-        padding: 1rem;
+        padding: 0.5rem;
        
      }
 
 }
 
-@media all and (max-width: 650px) {
+@media screen and (max-width: 350px) {
 
     header{
         position: absolute;
-        width: 100%;
+        
     }
 
     .nav{
         position: fixed;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        height: 40px;
-    }
+        height: 10px;
+        width: 100%;
     
+    }
+
+    nav li{
+        display: inline-block;
+        padding: 0 10px;
+        
+    
+
+
+    }
 
     .welcome-section{
         position: relative;
@@ -254,11 +268,30 @@ footer{
     }
     .welcome-section h1{
         font-size: 3em;
+        padding-top: 5px;
     }
 
     .container{
         display: flex;
         
     }
+
+    .profile-pic img{
+
+        max-width: 250px;
+        max-height: 250px;
+
+        
+    }
+     .profile-details{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .profile-details p{
+        font-size: 1.5rem;
+        padding: 0.2rem;
+       
+     }
 }
 
